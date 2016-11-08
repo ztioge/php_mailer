@@ -46,16 +46,20 @@ $mail->AuthType = 'XOAUTH2';
 //User Email to use for SMTP authentication - Use the same Email used in Google Developer Console
 $mail->oauthUserEmail = "eurangama15dw@ikzubirimanteo.com";
 
+//EL CLIENT ID LO TENGO EN UN ARCHIVO LOCAL
 //Obtained From Google Developer Console
-$mail->oauthClientId = "898690944190-2l8ni07penoj6sbahq62klkefkr1nv0s.apps.googleusercontent.com";
+$mail->oauthClientId = "";
 
+//EL CLIENT SECRET LO TENGO EN UN ARCHIVO LOCAL
 //Obtained From Google Developer Console
-$mail->oauthClientSecret = "qneUuFP7W9_s_ZezNerpZbtO";
+$mail->oauthClientSecret = "";
 
 //Obtained By running get_oauth_token.php after setting up APP in Google Developer Console.
 //Set Redirect URI in Developer Console as [https/http]://<yourdomain>/<folder>/get_oauth_token.php
 // eg: http://localhost/phpmail/get_oauth_token.php
-$mail->oauthRefreshToken = "1/2vWXFInod8UgCJMzB1mooUk1NAIIvM2yR7MfpHHpg_g";
+
+//EL REFRESH TOKEN LO TENGO EN UN ARCHIVO LOCAL.
+$mail->oauthRefreshToken = "";
 
 //Set who the message is to be sent from
 //For gmail, this generally needs to be the same as the user you logged in as

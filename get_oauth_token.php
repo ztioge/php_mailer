@@ -29,8 +29,10 @@ session_start();
 $redirectUri = 'https://php-mailer-ztioge.c9users.io/get_oauth_token.php';
 
 //These details obtained are by setting up app in Google developer console.
-$clientId = '898690944190-2l8ni07penoj6sbahq62klkefkr1nv0s.apps.googleusercontent.com';
-$clientSecret = 'qneUuFP7W9_s_ZezNerpZbtO';
+
+//EL CLIENT ID Y EL CLIENT SECRET LOS TENGO EN UN ARCHIVO EN LOCAL
+$clientId = '';
+$clientSecret = '';
 
 class Google extends AbstractProvider
 {
